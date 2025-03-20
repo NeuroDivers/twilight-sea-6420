@@ -1,0 +1,30 @@
+{
+  "name": "twilight-sea-6420",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jolly-smoke-d36d-d1",
+      "database_id": "e9b18f8e-c9e1-473b-a76f-1dd0638cb474"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "twilight-sea-6420-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
